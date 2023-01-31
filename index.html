@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>University Students Details</title>
+</head>
+<body>
+     <div class="container">
+           <section class="address-holder">
+              <div class="address-header">
+                <h2>University of Eldoret School of Science Student's Address-Storage System</h2>
+              </div>
+
+              <div class="database">
+                Enter Database
+              </div>
+
+              <div class="address-details">
+                   <fieldset>
+                      <legend>Address-Details</legend>
+
+     <form class="myForm">
+            <div class="details-container">
+                 <div class="mini-container">
+                     <label for="fname">First Name</label>
+                    <input type="text" required placeholder="ie. Andrew" id="fname" name="First name">
+                    <small>Error Messge</small>
+                 </div>
+
+                 <div class="mini-container">
+                    <label for="sname">Second Name</label>
+                   <input type="text" required placeholder="ie. Kimwetich" id="sname" name="Second name" >
+                   <small>Error Messge</small>
+                </div>
+
+                <div class="mini-container">
+                    <label for="email">Email Address</label>
+                   <input type="email" required placeholder="ie. aaa@gmail.com" id="email" name="Email">
+                   <small>Error Messge</small>
+                </div>
+
+                <div class="mini-container">
+                    <label for="regno">Registration Number</label>
+                   <input type="text" required placeholder="ie. Bit/041/21" id="regno" name="Registration No.">
+                   <small>Error Messge</small>
+                </div>
+                <div class="mini-container">
+                    <label for="phone-no">Phone Number</label>
+                   <input type="tel" required placeholder="ie. 0702526377" id="phone-no" name="Phone No.">
+                   <small>Error Messge</small>
+                </div>
+
+                <button class="submit-btn">Submit</button>
+           
+
+            </div>
+     </form>
+
+
+                   </fieldset>
+              </div>
+
+
+              <!--STYLING THE CONTAINER-HANDLING THE DETAILS ENTERED BY THE USER-->
+              <div class="address-values">
+               <div class="options-container">
+                   <div class="add-new">Add new</div>
+               </div>
+                <div class="header-ind">
+                  <p>F-Name</p>
+                  <p>S-Name</p>
+                  <p>Email</p>
+                  <p>Reg No.</p>
+                  <p>Phone No.</p>
+                  <p class="hide-p">Operations</p>
+                </div>
+                <div class="alert-container">Alert-message</div>
+                  <div class="names-list">
+                     
+                  </div>
+
+                  <div class="clear-details">Clear Details</div>
+              </div>
+
+              <!--LOADING WINDOW SECTION-->
+
+              <div class="loading-window">
+               <div class="load-holder">
+                  <div class="load">L</div>
+                  <div class="load">o</div>
+                  <div class="load">a</div>
+                  <div class="load">d</div>
+                  <div class="load">i</div>
+                  <div class="load">n</div>
+                  <div class="load">g</div>
+                  <div class="load load-s"></div>
+                  <div class="load load-n"></div>
+                  <div class="load load-g"></div>
+               </div>
+              </div>
+
+           </section>
+     </div>
+    <script src="scrpt.js"></script>
+</body>
+</html>
